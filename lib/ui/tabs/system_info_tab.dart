@@ -71,6 +71,7 @@ class _SystemInfoTabState extends State<SystemInfoTab> {
   }
 
   // Helpers de conversión
+  // modificacion de prueba
   String _formatBytes(dynamic value) {
     if (value == null) return "0 GB";
     final num bytes = (value is int)
